@@ -1,0 +1,48 @@
+body {
+}
+
+.homeBtn {
+    padding: 1em;
+    background: rgba(255, 255, 255, 1);
+    min-width: 1em;
+    display: block;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    border-radius: 5px;
+    font-family: 'century gothic';
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b33c3c;
+    cursor: pointer;
+  
+}
+
+.login {
+    width: 20em;
+    height: 20em;
+    background: #c1c1c1;
+    position: relative;
+    display: none;
+    top: 2em;
+    margin: 0 auto;
+    z-index: 1000;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.nonBlur {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}
